@@ -15,7 +15,25 @@
 </head>
 
 <body>
-    <h3>Mini Music</h3>
+    <div class="app-wrapper">
+        <div class="player">
+            <audio id="music-player"></audio>
+            <div id="song-image" class="song-img"></div>
+            <div class="song-details">
+                <h2 id="song-title">Forget me too ft. Hasley</h2>
+                <h3 id="song-artist">Machine Gun Kelly</h3>
+            </div>
+            <div class="player-controls">
+                <button id="prev-btn" class="skip-btn"><i class="fas fa-backward fa-lg"></i></button>
+                <button id="play-btn" class="play-btn"><i id="play-icon" class="fas fa-play fa-2x"></i></button>
+                <button id="next-btn" class="skip-btn"><i class="fas fa-forward fa-lg"></i></button>
+            </div>
+            <div class="next-up">
+                <p>Next up: <span id="song-next-up">Kindest regards by Will Lowry</span> </p>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
 </body>
 
 </html>
